@@ -1,0 +1,177 @@
+/* Button Styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #2980b9;
+  }
+/* CSS for a Text Element */
+.text {
+    font-size: 16px; /* Font size in pixels */
+    font-family: Arial, sans-serif; /* Font family */
+    color: #333; /* Text color */
+    line-height: 1.5; /* Line height */
+    text-align: left; /* Text alignment (left, center, right) */
+    margin: 10px; /* Margin around the text element */
+    padding: 5px; /* Padding inside the text element */
+    background-color: #f0f0f0; /* Background color */
+    border: 1px solid #ccc; /* Border with color */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  /* Hover effect */
+  .text:hover {
+    background-color: #ddd; /* Change background color on hover */
+    color: #555; /* Change text color on hover */
+    border: 1px solid #999; /* Change border on hover */
+  }
+/* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown button (the element you click to open the dropdown) */
+  .dropdown-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  /* Dropdown content (the items in the dropdown) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    z-index: 1;
+  }
+  
+  /* Dropdown items */
+  .dropdown-item {
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover effect for dropdown items */
+  .dropdown-item:hover {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  /* Show the dropdown content when the button is hovered or clicked */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+/* Basic input styles */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Hover effect */
+  input:hover {
+    border-color: #666;
+  }
+  
+  /* Focus effect */
+  input:focus {
+    outline: none;
+    border-color: #007bff; /* Change this color to your desired focus color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Disabled input */
+  input:disabled {
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+  }
+  
+  /* Placeholder text */
+  input::placeholder {
+    color: #999;
+  }
+  
+  /* Error state */
+  input.error {
+    border-color: #ff0000;
+  }
+  
+  /* Success state */
+  input.success {
+    border-color: #00cc00;
+  }
+/* Navbar container */
+.navbar {
+    background-color: #333; /* Background color for the navbar */
+    overflow: hidden;
+  }
+  
+  /* Navbar items (list items) */
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  /* Navbar item (list item) */
+  .navbar li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar links (anchor elements) */
+  .navbar a {
+    display: block;
+    color: #fff; /* Text color for the links */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Navbar link hover effect */
+  .navbar a:hover {
+    background-color: #555; /* Background color on hover */
+  }
+  
+  /* Active (current) link */
+  .navbar a.active {
+    background-color: #007bff; /* Background color for the active link */
+  }
+  
+  /* Submenu styles (if your navbar has submenus) */
+  .navbar .submenu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    z-index: 1;
+  }
+  
+  .navbar .submenu a {
+    padding: 12px;
+  }
+  
+  /* Show submenu on hover */
+  .navbar li:hover .submenu {
+    display: block;
+  }
+    
