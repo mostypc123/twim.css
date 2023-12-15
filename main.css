@@ -1,4 +1,4 @@
-/* Button Styles */
+   /* Button Styles */
 .button {
     display: inline-block;
     padding: 10px 20px;
@@ -174,4 +174,357 @@ input {
   .navbar li:hover .submenu {
     display: block;
   }
-    
+/* Blockquote Styles */
+blockquote {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    border-left: 4px solid #3498db;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+/* Blockquote Hover Effect */
+blockquote:hover {
+    background-color: #f0f0f0;
+}
+/* Card Styles */
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Header Styles */
+.card-header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Card Body Styles */
+.card-body {
+    padding: 20px;
+}
+
+/* Card Footer Styles */
+.card-footer {
+    background-color: #f0f0f0;
+    padding: 15px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+
+/* Card Hover Effect */
+.card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+/* Alert Styles */
+.alert {
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+
+/* Success Alert Styles */
+.alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
+
+/* Error Alert Styles */
+.alert-error {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
+/* Info Alert Styles */
+.alert-info {
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+    color: #0c5460;
+}
+
+/* Alert Close Button Styles */
+.alert-close {
+    float: right;
+    cursor: pointer;
+}
+
+/* Alert Hover Effect */
+.alert:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover Effect for Close Button */
+.alert-close:hover {
+    color: #000;
+}
+/* Pagination Styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+/* Pagination Item Styles */
+.pagination-item {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+/* Pagination Link Styles */
+.pagination-link {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+/* Active Pagination Link Styles */
+.pagination-item.active .pagination-link {
+    background-color: #3498db;
+    color: #fff;
+    border: 1px solid #3498db;
+}
+
+/* Hover Effect for Pagination Link */
+.pagination-link:hover {
+    background-color: #f0f0f0;
+}
+/* Tab Styles */
+.tabs {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+/* Tab Item Styles */
+.tab-item {
+    margin-right: 10px;
+}
+
+/* Tab Link Styles */
+.tab-link {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px 4px 0 0;
+    transition: background-color 0.3s;
+}
+
+/* Active Tab Link Styles */
+.tab-item.active .tab-link {
+    background-color: #3498db;
+    color: #fff;
+    border: 1px solid #3498db;
+}
+
+/* Tab Content Styles */
+.tab-content {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 0 0 4px 4px;
+}
+
+/* Hide Inactive Tab Content */
+.tab-content:not(.active) {
+    display: none;
+}
+
+/* Hover Effect for Tab Link */
+.tab-link:hover {
+    background-color: #ddd;
+}
+/* Card Group Styles */
+.card-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Card in Card Group Styles */
+.card-group .card {
+    width: 200px;
+    margin: 10px;
+}
+
+/* List Group Styles */
+.list-group {
+    list-style: none;
+    padding: 0;
+}
+
+/* List Group Item Styles */
+.list-group-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+/* List Group Item Hover Effect */
+.list-group-item:hover {
+    background-color: #f0f0f0;
+}
+/* Table Styles */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Table Header Styles */
+.table th {
+    background-color: #333;
+    color: #fff;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Table Row Styles */
+.table tr {
+    border-bottom: 1px solid #ccc;
+}
+
+/* Table Cell Styles */
+.table td, .table th {
+    padding: 10px;
+}
+
+/* Alternate Row Background Color */
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Hover Effect for Table Rows */
+.table tr:hover {
+    background-color: #ddd;
+}
+/* Code Styles */
+code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    background-color: #f0f0f0;
+    padding: 2px 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Inline Code Styles */
+.inline-code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    background-color: #f0f0f0;
+    padding: 2px 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Pre Styles for Code Blocks */
+pre {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: auto;
+}
+
+/* Line Numbers for Code Blocks */
+pre code {
+    counter-reset: line;
+}
+
+/* Line Number Styles */
+pre code:before {
+    content: counter(line);
+    counter-increment: line;
+    padding-right: 10px;
+    color: #777;
+    display: inline-block;
+}
+
+/* Syntax Highlighting for Code */
+/* Customize this section based on the syntax highlighting library you use */
+/* Example for highlighting.js library */
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    color: #333;
+    background: #f8f8f8;
+}
+/* Accordion Styles */
+.accordion {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Accordion Section Styles */
+.accordion-section {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+/* Accordion Title Styles */
+.accordion-title {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Accordion Content Styles */
+.accordion-content {
+    padding: 10px;
+    display: none;
+    background-color: #f0f0f0;
+}
+
+/* Active Accordion Section Styles */
+.accordion-section.active .accordion-content {
+    display: block;
+}
+
+/* Arrow Icon Styles */
+.accordion-title::after {
+    content: '\25BC'; /* Unicode character for a downward-pointing triangle */
+    font-size: 12px;
+    margin-left: 5px;
+    display: inline-block;
+    transition: transform 0.3s;
+}
+
+/* Rotate Arrow Icon on Active Accordion Section */
+.accordion-section.active .accordion-title::after {
+    transform: rotate(180deg);
+}
+
